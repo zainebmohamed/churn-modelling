@@ -14,7 +14,7 @@ Recall is a critical metric in the telco industry, and so model evaluation effor
 
 --- 
 
-#### **`Target: To achieve a recall of at least 0.8`**
+#### **`Goal: To achieve a recall of at least 0.8`**
 
 --- 
 
