@@ -9,12 +9,12 @@ To build and train a churn pipeline that evaluates several classification estima
 Recall is a critical metric in the telco industry, and so model evaluation efforts will focus exclusively on optimising recall.
 
 ### Why optimise recall?
-- **Higher cost of false negatives than false positives**
-- **More expensive to replace a customer than to retain an existing one (up to 5-10 times) through targeted retention efforts**
+- Higher cost of false negatives than false positives
+- More expensive to replace a customer than to retain an existing one (up to 5-10 times) through targeted retention efforts
 
 --- 
 
-`**Target:** To achieve a recall of at least **0.8**`
+**`Target: To achieve a recall of at least 0.8`**
 
 # Dataset
 
@@ -40,7 +40,7 @@ The dataset contains the following columns:
 
 The core logic of the model building, optimisation and evaluation steps is wrapped in a 'ChurnClassifier' class. 
 
-Minimal preprocessing is conducted on the data, including removing non-informative columns which will not be used in the model building stage.
+Minimal preprocessing is conducted on the data, removing non-informative columns which will not be used in the model building stage.
 
 ## Pipeline Construction
 - Encode categorical variables using OneHotEncoder
