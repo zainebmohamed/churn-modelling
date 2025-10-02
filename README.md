@@ -72,7 +72,6 @@ Minimal preprocessing is conducted on the data, removing non-informative columns
 The following libraries must be installed to run this project:
 
 - `pandas`
-- `numpy`
 - `seaborn`
 - `matplotlib`
 - `scikit-learn`
