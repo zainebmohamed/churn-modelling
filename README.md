@@ -1,6 +1,6 @@
 # churn-modelling
 
-This project aims to build a predictive machine learning model to identify Telco customers who are likely to churn.  The dataset includes various customer attributes such as demographics, financial data and account activity.*
+This project aims to build a predictive machine learning model to identify Telco customers who are likely to churn.  The dataset includes a number of customer attributes including demographics, financial data and account activity indicators.
 
 # Objective
 
@@ -83,7 +83,3 @@ To install dependencies, use:
 
 ```bash
 pip install -r requirements.txt
-
-
-
-
